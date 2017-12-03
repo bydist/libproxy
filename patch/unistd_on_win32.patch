@@ -1,0 +1,13 @@
+diff -Naur a/libproxy/url.cpp b/libproxy/url.cpp
+--- a/libproxy/url.cpp	2017-05-11 11:33:33.000000000 +0200
++++ b/libproxy/url.cpp	2017-12-03 17:53:33.115986735 +0100
+@@ -33,7 +33,9 @@
+ #include <cstdlib>    // For atoi()
+ #include <sys/stat.h> // For stat()
+ #include <algorithm> // For transform()
++#ifndef WIN32
+ #include <unistd.h>  // For read() close()
++#endif
+ 
+ #ifdef WIN32
+ #include <io.h>

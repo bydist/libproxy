@@ -1,5 +1,5 @@
 set(package libproxy)
-set(version 0.4.13)
+set(version 0.4.15)
 
 byd__package__info(${package}
     MAINTAINER_NAME "David Callu"
@@ -9,6 +9,6 @@ byd__package__info(${package}
     )
 
 byd__package__download_info(${package}
-    URL "https://github.com/libproxy/libproxy/archive/0.4.13.tar.gz"
-    URL_HASH SHA1=fadd9e3c9c418496b0836527c89ac6d84f0e37c9
+    URL "https://github.com/libproxy/libproxy/archive/0.4.15.tar.gz"
+    URL_HASH SHA1=2dc0fc31cad78ce3d7a5ceb8fa8df07010f5c13e
 )
