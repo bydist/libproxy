@@ -5,6 +5,7 @@ include("${CMAKE_CURRENT_LIST_DIR}/id.cmake")
 byd__cmake__configure__add_arg(${package} WITH_PERL OFF)
 byd__cmake__configure__add_arg(${package} WITH_PYTHON2 OFF)
 byd__cmake__configure__add_arg(${package} WITH_PYTHON3 OFF)
+byd__cmake__configure__add_arg(${package} WITH_MOZJS OFF)
 
 if(MSVC)
     byd__cmake__configure__add_arg(${package} WITH_KDE OFF)
